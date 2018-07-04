@@ -1,0 +1,26 @@
+##############
+Atom
+https://github.com/atom/atom.git
+
+req: build-essential git libgnome-keyring-dev fakeroot rpm
+install: https://github.com/atom/atom/blob/master/docs/build-instructions/linux.md
+
+known_issues: 
+sudo apt-get install nodejs nodejs-legacy
+npm cache clean -f
+npm install -g n
+n stable
+
+
+##############
+fswatch
+https://github.com/emcrisostomo/fswatch
+
+req:
+install: see INSTALL.gnu-build-system
+
+##############
+progress
+https://github.com/Xfennec/progress
+
+req: libncurses5-dev pkg-config

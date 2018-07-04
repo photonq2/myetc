@@ -1,0 +1,21 @@
+#Paquetes esenciales DEBIAN amd64
+
+
+#Linux tools
+caja-open-terminal beep ibus ibus-kkc unar bc
+
+#Linux hacker/dev tools
+geany cmake bless etckeeper vim nmap clang htop python git autoconf automake libtool python git nodejs nodejs-legacy
+
+#Linux multimedia/web
+filezilla chromium audacious vlc curl rdesktop 
+
+#Linux secure utils
+ccrypt secure-delete openssh-server openvpn apt-transport-https apt-transport-tor 
+
+#Linux disk utils
+gparted mdadm usbutils lm-sensors hddtemp gddrescue testdisk hdparm dump gnome-disk-utility smartmontools aapt
+
+
+#Others
+pkg-config libncurses5-dev
